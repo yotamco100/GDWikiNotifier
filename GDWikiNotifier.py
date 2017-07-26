@@ -13,7 +13,7 @@ logging.info("Starting up!")
 print("[{}] Starting up!".format(datetime.now()))
 
 #my pushbullet token
-pb = PushBullet("o.Kp6dJtMg4wn2FTSD779NBbbEpFzPhoe4")
+pb = PushBullet("YOUR_ACCESS_TOKEN_HERE")
 
 #website interaction
 user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7' #user agent just so bs4 won't be a cunt
